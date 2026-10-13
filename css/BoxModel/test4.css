@@ -1,0 +1,63 @@
+ .sd{
+    border: 4px solid black;
+    height: 275px;
+    width: 245px;
+    margin-left: 510px;
+    margin-top: 110px;
+}
+.image{
+    height: 275px;
+    width: 245px;
+}
+.sd1{
+    border: 4px solid black;
+    height: 285px;
+    width: 245px;
+    margin-left: 510px;
+    
+}
+.linku:visited{
+    color:orange;
+}
+.linku:hover{
+    color:aqua;
+}
+.linku{
+   text-decoration: none;
+    color: grey;
+    font-size: 10px;
+}
+.looks{
+    margin-top: 4px;
+    font-size: 13px;
+}
+.add{
+    margin-top: -17px;
+    font-size: 13px;
+    margin-left: 35px;
+    width: 170px;
+    background-color: yellow;
+    font-weight: bold;
+}
+.price{
+    margin-left: 92px;
+    margin-top: -37px;
+    color: grey;
+    font-size: 10px;
+}
+.price1{
+    margin-left: 122px;
+    margin-top: -23px;
+    color: grey;
+    font-size: 10px;
+    text-decoration: line-through;
+}
+.price2{
+    margin-left: 148px;
+    margin-top: -23px;
+    color: black;
+    font-size: 11px;
+}
+.price3{
+    font-size: 14px;
+}

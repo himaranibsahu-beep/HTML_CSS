@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 25px;
+            background-color: #198754;
+            color: white;
+            box-sizing: border-box;
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .icons {
+            display: flex;
+            gap: 25px;
+            color: white;
+            font-size: 50px;
+        }
+
+        .icons #usn {
+            cursor: pointer;
+            padding: 7px;
+            background-color: blue;
+        }
+
+        .icons #bell {
+            cursor: pointer;
+            padding: 7px;
+            background-color: #dc3545;
+        }
+
+        .find {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .find input {
+            padding: 10px;
+            width: 180px;
+            border-radius: 6px;
+            outline: none;
+            border: none;
+        }
+
+        .find i {
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            border: none;
+            background: transparent;
+        }
+
+        .box {
+            height: 500px;
+            width: 500px;
+            margin: 100px auto;
+            background-color: grey;
+        }
+
+        .circle {
+            position: absolute;
+            top: -5px;
+            right: -8px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: red;
+            color: white;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icon-box {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #usn {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .foot {
+
+            position: absolute;
+            right: 20px;
+            bottom: -50px;
+            width: 70px;
+            height: 75px;
+            border-radius: 50%;
+            border: 2px solid black;
+            background: white;
+            font-size: 55px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Navbar</h1>
+        <div class="find">
+            <input type="text" placeholder="Search......." id="search">
+            <i class="fa-solid fa-magnifying-glass" id="find"></i>
+        </div>
+        <div class="icons">
+            <span class="icon-box">
+                <i class="fa-solid fa-circle-user" id="usn"></i>
+            </span>
+            <span class="circle"></span>
+            <span class="icon-box">
+                <i class="fa-solid fa-bell" id="bell"><span class="circle">5</span></i>
+            </span>
+        </div>
+    </nav>
+    <!-- Main Section -->
+    <div class="box">
+        <h3>
+            <form>
+
+                <table>
+                    <tr>
+                        <td><label>Username</label></td>
+                        <td><input type="text" placeholder=" Enter your username 👤"></td>
+                    </tr>
+                    <tr>
+                        <td><label>password</label></td>
+                        <td><input type="password" placeholder="Enter your password 🔑"></td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2"><input type="submit"></td>
+                    </tr>
+                </table>
+            </form>
+`
+            COMMENT
+            <span class="icon-box">
+                <i class="fa-solid fa-circle-user"></i>
+            </span>
+            <span class="icon-box">
+                <i class="fa-solid fa-circle-user"></i>
+            </span>
+            <span class="icon-box">
+                <i class="fa-solid fa-circle-user"></i>
+            </span>
+        </h3>
+    </div>
+    <!-- Foter Section -->
+    <div class="foot">
+        <i class="fa-solid fa-phone"></i>
+    </div>
+</body>
+
+</html>

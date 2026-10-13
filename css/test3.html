@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inline-level {
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+        }
+
+        .block-level {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+        }
+
+        .display-inline {
+            display: inline;
+        }
+
+        .display-block {
+            display: block;
+        }
+
+        .dis {
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+
+        }
+
+        .display-inline-block {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Inline Element</h1>
+    <span class="inline-level display-inline">span 1</span>
+    <a href="#" class="inline-level display-block">link</a>
+    <span class="inline-level">span 2</span>
+
+    <h1>Block Element</h1>
+    <span>span 1</span>
+    <div class="block-level display-inline">div 1</div>
+    <span>span 2</span>
+    <p class="block-level">para 1</p>
+    <div class="block-level display-block">div 2</div>
+
+    <h1>Inline Block</h1>
+    <span>span 1</span>
+    <div class="dis display-inline-block">div 1</div>
+    <h3 class="dis display-inline-block">Header</h3>
+    <span>span 2</span>
+
+</body>
+
+</html>

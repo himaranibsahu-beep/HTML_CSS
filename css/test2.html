@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Navbar Design</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 1000px;
+            height: 500px;
+            border: 2px solid black;
+            margin: 50px auto;
+            border-radius: 10px;
+        }
+
+        .navbar {
+            height: 80px;
+            border-bottom: 2px solid black;
+            background-color: palevioletred;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .icons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .icons button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid black;
+            background: white;
+            font-size: 22px;
+        }
+
+        .content {
+            height: 318px;
+            position: relative;
+        }
+
+        .e-icon {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            width: 55px;
+            height: 65px;
+            border-radius: 50%;
+            border: 2px solid black;
+            background: white;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav class="navbar">
+            <h2>Nabar</h2>
+
+            <div class="icons">
+                <button>🔔</button>
+                <button>👤</button>
+            </div>
+        </nav>
+
+        <form>
+
+            <table>
+                <tr>
+                    <td><label>Username</label></td>
+                    <td><input type="text" placeholder=" Enter your username 👤"></td>
+                </tr>
+                <tr>
+                    <td><label>password</label></td>
+                    <td><input type="password" placeholder="Enter your password 🔑"></td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2"><input type="submit"></td>
+                </tr>
+            </table>
+        </form>
+        <div class="content">
+            <button class="e-icon ">📞</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
